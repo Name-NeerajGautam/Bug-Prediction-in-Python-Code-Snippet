@@ -6,7 +6,7 @@ from nltk.corpus import stopwords
 import nltk 
 nltk.download('stopwords')
 nltk.download('punkt')
-nltk.download('punk_tab')
+nltk.download('punkt_tab')
 
 def clean_code(text):
     text=re.sub(r'[^a-zA-Z0-9_\s]',' ',text)# remove special characters
